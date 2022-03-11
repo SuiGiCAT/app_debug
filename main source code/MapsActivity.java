@@ -86,7 +86,7 @@ public class MapsActivity extends FragmentActivity implements OnMarkerClickListe
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy); // 线程检查
-        /*--------------------------------Last Report-----------------------------------*/
+        /*-------------------------------- app ----------------------------------*/
 
         // a user interface to search for local code
         LocalCode lc = new LocalCode("大阪府","高槻・茨木・箕面・伊丹空港");
@@ -129,7 +129,7 @@ public class MapsActivity extends FragmentActivity implements OnMarkerClickListe
 
         //move camera to osaka
         mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(34.641332,135.562939)));
-        /*---------------------------------JSON TEXT------------------------------------*/
+        /*---------------------------------JSON TEST------------------------------------*/
 //            LatLng kansaiS = new LatLng(20,20);
 //        try {
 //            URL url = new URL("https://www.jma.go.jp/bosai/forecast/data/forecast/270000.json");
@@ -166,7 +166,7 @@ public class MapsActivity extends FragmentActivity implements OnMarkerClickListe
 //                .snippet(hd3.hotelList.size()+"")
 //                .title(hd2.hotelList.size()+""));
 
-        /*------------------------------------------------------------------*/
+        /*-------------------------------Study part -----------------------------------*/
 
 //        PolylineOptions rectOption = new PolylineOptions().add(new LatLng(37.35, -122.0))
 //                .add(new LatLng(37.45, -122.0))
@@ -233,7 +233,7 @@ public class MapsActivity extends FragmentActivity implements OnMarkerClickListe
         // Add a marker in Sydney and move the camera
 
 
-        /*---------------------------　MARK TEXT　------------------------------*/
+        /*---------------------------　MARK TEST　------------------------------*/
 //
 //        LatLng kansaiD = new LatLng(34.877931, 135.576883);
 //        LatLng kansaiA = new LatLng(34.878108, 135.575549);
